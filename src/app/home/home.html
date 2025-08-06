@@ -1,0 +1,30 @@
+<div class="bg-gray-50 min-h-screen py-8 px-4">
+  <div class="max-w-4xl mx-auto">
+    <header class="mb-10 text-center">
+      <h1 class="text-3xl md:text-4xl font-serif font-bold text-green-900">
+        Ministry of Agriculture News
+      </h1>
+      <p class="text-gray-600 mt-2">
+        Updates and announcements for landowners, cooperatives, and rural producers
+      </p>
+    </header>
+
+    <section class="grid gap-6">
+      <a
+        *ngFor="let news of newsList"
+        [routerLink]="['/news', news.uuid]"
+        class="block bg-white border border-gray-200 p-5 rounded-lg shadow-sm hover:shadow-md transition"
+      >
+        <h2 class="text-xl font-serif text-green-800 font-semibold">
+          {{ news.title }}
+        </h2>
+        <p class="text-gray-700 mt-2 line-clamp-2">
+          {{ news.content }}
+        </p>
+        <p class="text-sm text-gray-400 mt-1">
+          {{ news.topic }}
+        </p>
+      </a>
+    </section>
+  </div>
+</div>

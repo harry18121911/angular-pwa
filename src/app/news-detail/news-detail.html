@@ -1,0 +1,22 @@
+<div class="bg-gray-50 min-h-screen py-10 px-4">
+  <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-8">
+    <header class="mb-6">
+      <h1 class="text-3xl font-serif font-bold text-green-900">
+        {{ news?.title }}
+      </h1>
+      <p class="text-sm text-gray-500 mt-1">{{ news?.topic }}</p>
+    </header>
+
+    <article class="text-gray-800 text-lg leading-relaxed">
+      {{ news?.content }}
+    </article>
+
+    <footer class="mt-8 text-right">
+      <a [routerLink]="['/']"class="text-green-700 hover:underline text-sm">
+        ← Back to news
+      </a>
+    </footer>
+  </div>
+</div>
+
+

@@ -1,7 +1,5 @@
-import { Component, OnInit, signal } from '@angular/core';
+import { Component,  signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NewsService } from './services/news.service';
-import { News } from './models/news.model';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -11,19 +9,8 @@ import { CommonModule } from '@angular/common';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App implements OnInit {
-  newsList: News [] = [];
-
-  constructor(private newsService:NewsService){}
+export class App  {
 
   protected readonly title = signal('AngularPWA');
-
-  ngOnInit():void{
-  this.newsService.getAllNews().subscribe(data=>{
-    this.newsList = data;
-  })
-
-  }
-
 
 }
