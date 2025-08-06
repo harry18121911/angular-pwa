@@ -1,0 +1,211 @@
+{
+  "news": [
+    {
+      "uuid": "1a2b3c4d",
+      "title": "Breaking News: Angular Rocks!",
+      "content": "Angular 15 PWA with Capacitor now easier than ever.",
+      "topic": "Tech",
+      "is_deleted": false,
+      "ts_last_updated": 1691337600000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "2b3c4d5e",
+      "title": "Local News Update",
+      "content": "The community is organizing an Angular meetup.",
+      "topic": "Community",
+      "is_deleted": false,
+      "ts_last_updated": 1691424000000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "3c4d5e6f",
+      "title": "Outdated News",
+      "content": "This story should expire soon.",
+      "topic": "Old",
+      "is_deleted": false,
+      "ts_last_updated": 1691337600000,
+      "ts_expiration": 1691340000000
+    },
+    {
+      "uuid": "1",
+      "title": "Angular 17 Released",
+      "content": "Angular 17 brings new features and performance improvements.",
+      "topic": "Tech",
+      "is_deleted": false,
+      "ts_last_updated": 1691337600000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "2",
+      "title": "Local Angular Meetup",
+      "content": "Join us this weekend for an Angular meetup.",
+      "topic": "Community",
+      "is_deleted": false,
+      "ts_last_updated": 1691341200000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "3",
+      "title": "PWA Usage Rises",
+      "content": "PWAs are gaining traction across industries.",
+      "topic": "Tech",
+      "is_deleted": false,
+      "ts_last_updated": 1691344800000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "4",
+      "title": "GeneXus Integration",
+      "content": "Integrating Angular with GeneXus backend simplified.",
+      "topic": "Backend",
+      "is_deleted": false,
+      "ts_last_updated": 1691348400000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "5",
+      "title": "Capacitor Tips & Tricks",
+      "content": "Learn how to use Capacitor effectively in your mobile app.",
+      "topic": "Mobile",
+      "is_deleted": false,
+      "ts_last_updated": 1691352000000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "6",
+      "title": "TypeScript 5.4 Overview",
+      "content": "A deep dive into TypeScript's latest features.",
+      "topic": "Tech",
+      "is_deleted": false,
+      "ts_last_updated": 1691355600000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "7",
+      "title": "Dark Mode Now Default",
+      "content": "Dark mode is enabled by default in new Angular apps.",
+      "topic": "UX",
+      "is_deleted": false,
+      "ts_last_updated": 1691359200000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "8",
+      "title": "Firebase Updates Rules",
+      "content": "Firebase Security Rules updated for easier maintenance.",
+      "topic": "Firebase",
+      "is_deleted": false,
+      "ts_last_updated": 1691362800000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "9",
+      "title": "Build Time Cut in Half",
+      "content": "Build times reduced with Angular CLI optimization.",
+      "topic": "Performance",
+      "is_deleted": false,
+      "ts_last_updated": 1691366400000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "10",
+      "title": "AI-Assisted Development",
+      "content": "AI tools boost developer productivity.",
+      "topic": "AI",
+      "is_deleted": false,
+      "ts_last_updated": 1691370000000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "11",
+      "title": "Push Notifications Best Practices",
+      "content": "Learn how to use Firebase Cloud Messaging effectively.",
+      "topic": "Mobile",
+      "is_deleted": false,
+      "ts_last_updated": 1691373600000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "12",
+      "title": "Angular Signals Tutorial",
+      "content": "Signals are changing the way reactivity works in Angular.",
+      "topic": "Tech",
+      "is_deleted": false,
+      "ts_last_updated": 1691377200000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "13",
+      "title": "Animations with Tailwind",
+      "content": "Build smooth animations with Tailwind and Angular.",
+      "topic": "UX",
+      "is_deleted": false,
+      "ts_last_updated": 1691380800000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "14",
+      "title": "GeneXus vs Custom Backend",
+      "content": "Pros and cons of using GeneXus for backend services.",
+      "topic": "Backend",
+      "is_deleted": false,
+      "ts_last_updated": 1691384400000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "15",
+      "title": "Expo vs Capacitor",
+      "content": "Comparing two major tools for hybrid mobile apps.",
+      "topic": "Mobile",
+      "is_deleted": false,
+      "ts_last_updated": 1691388000000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "16",
+      "title": "Expired News",
+      "content": "This article should no longer be visible.",
+      "topic": "Deprecated",
+      "is_deleted": false,
+      "ts_last_updated": 1691391600000,
+      "ts_expiration": 1691395200000
+    },
+    {
+      "uuid": "17",
+      "title": "Bug Fixes in Angular CLI",
+      "content": "Angular CLI 17.1 fixes key issues with build tooling.",
+      "topic": "Tech",
+      "is_deleted": false,
+      "ts_last_updated": 1691395200000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "18",
+      "title": "Best Dev Podcasts 2025",
+      "content": "Here’s a list of top dev podcasts you should follow.",
+      "topic": "Community",
+      "is_deleted": false,
+      "ts_last_updated": 1691398800000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "19",
+      "title": "JavaScript Performance Myths",
+      "content": "Some performance myths around JS debunked.",
+      "topic": "Tech",
+      "is_deleted": false,
+      "ts_last_updated": 1691402400000,
+      "ts_expiration": 1999999999999
+    },
+    {
+      "uuid": "20",
+      "title": "Cloud Functions Tips",
+      "content": "How to write efficient Firebase Cloud Functions.",
+      "topic": "Firebase",
+      "is_deleted": false,
+      "ts_last_updated": 1691406000000,
+      "ts_expiration": 1999999999999
+    }
+  ]
+}
