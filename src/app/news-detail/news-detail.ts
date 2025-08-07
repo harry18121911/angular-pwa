@@ -22,7 +22,7 @@ export class NewsDetail implements OnInit {
   ngOnInit():void{
     const uuid= this.route.snapshot.paramMap.get("uuid");
     if(uuid){
-      this.newsService.getAllNews().subscribe(newsList =>{
+      this.newsService.getUpdatedNews().subscribe(newsList =>{
         this.news = newsList.find(n=>n.uuid ===uuid);
       })
     }

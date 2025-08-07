@@ -6,20 +6,20 @@ import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule,RouterLink],
-  standalone:true,
+  imports: [CommonModule, RouterLink],
+  standalone: true,
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
 export class Home {
-  newsList: News [] = [];
+  newsList: News[] = [];
 
-  constructor(private newsService:NewsService){}
+  constructor(private newsService: NewsService) { }
 
-  ngOnInit():void{
-  this.newsService.getAllNews().subscribe(data=>{
-    this.newsList = data;
-  })
+  ngOnInit(): void {
+    this.newsService.getUpdatedNews().subscribe(news => {
+      this.newsList = news;
+    });
 
   }
 }
