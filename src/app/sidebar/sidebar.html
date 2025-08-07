@@ -7,6 +7,10 @@
 
   <a routerLink="/" class="text-gray-700 hover:text-green-700 transition-colors">Inicio</a>
   <a routerLink="/weather" class="text-gray-700 hover:text-green-700 transition-colors">Clima</a>
-  <a routerLink="/news" class="text-gray-700 hover:text-green-700 transition-colors">Noticias</a>
+  <a routerLink="/newsList" class="text-gray-700 hover:text-green-700 transition-colors">Noticias</a>
+
+  <a routerLink ="/newsList" (click)="toggleSidebar()" class="block hover:text-blue-600">
+      📰 News
+    </a>
   <a routerLink="/settings" class="text-gray-700 hover:text-green-700 transition-colors">Configuración</a>
 </div>
