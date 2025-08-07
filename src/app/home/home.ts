@@ -1,25 +1,24 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { News } from '../models/news.model';
-import { NewsService } from '../services/news.service';
+
 import { RouterLink } from '@angular/router';
+import { CitySearchComponent } from '../city-search/city-search';
+import { Sidebar } from '../sidebar/sidebar';
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule,CitySearchComponent,Sidebar ],
   standalone: true,
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
 export class Home {
-  newsList: News[] = [];
 
-  constructor(private newsService: NewsService) { }
 
-  ngOnInit(): void {
-    this.newsService.getUpdatedNews().subscribe(news => {
-      this.newsList = news;
-    });
-
+  public toggleSidebar(){
+    let sidebar= document.getElementById("sidebar");
+    if(sidebar){
+      sidebar.classList.toggle("hidden")
+    }
   }
 }

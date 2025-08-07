@@ -1,0 +1,12 @@
+<div class="p-4 flex flex-col gap-4 bg-white w-full h-full">
+  <button (click)="toggleSidebar()" class="absolute top-2 right-2 text-gray-500 hover:text-red-600">
+  ✕
+</button>
+
+  <h2 class="text-lg font-bold text-green-700">Menú</h2>
+
+  <a routerLink="/" class="text-gray-700 hover:text-green-700 transition-colors">Inicio</a>
+  <a routerLink="/weather" class="text-gray-700 hover:text-green-700 transition-colors">Clima</a>
+  <a routerLink="/news" class="text-gray-700 hover:text-green-700 transition-colors">Noticias</a>
+  <a routerLink="/settings" class="text-gray-700 hover:text-green-700 transition-colors">Configuración</a>
+</div>
